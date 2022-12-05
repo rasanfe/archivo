@@ -1,0 +1,4 @@
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\publish\SplitMergePdf.dll
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\publish\SplitMergePdf.deps.json
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\publish\SplitMergePdf.pdb
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\publish\itextsharp.dll

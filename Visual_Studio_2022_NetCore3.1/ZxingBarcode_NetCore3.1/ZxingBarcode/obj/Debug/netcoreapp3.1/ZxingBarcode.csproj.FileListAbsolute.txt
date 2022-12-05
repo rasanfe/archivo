@@ -1,0 +1,13 @@
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.csproj.AssemblyReference.cache
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.AssemblyInfoInputs.cache
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.AssemblyInfo.cs
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.csproj.CoreCompileInputs.cache
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\bin\Debug\netcoreapp3.1\ZxingBarcode.deps.json
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\bin\Debug\netcoreapp3.1\ZxingBarcode.dll
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\bin\Debug\netcoreapp3.1\ZxingBarcode.pdb
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\bin\Debug\netcoreapp3.1\zxing.dll
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.csproj.CopyComplete
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.dll
+C:\projecto pw2021\Aprender\Dora Sistemas\Qr_NetCore\ZxingBarcode\ZxingBarcode\ZxingBarcode\obj\Debug\netcoreapp3.1\ZxingBarcode.pdb
