@@ -1,4 +1,4 @@
-# qrcode
+# Ean13Code
 PowerBuilder Ean13Code
 
 PowerBuilder Example to Generate and Read Ean13 Codes.
