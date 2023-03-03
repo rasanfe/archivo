@@ -1,6 +1,0 @@
-Save Format v3.0(19990112)
-@begin Targets
- 0 "pbpdfutilities.pbt";
-@end;
-DefaultTarget "pbpdfutilities.pbt";
-DefaultRemoteTarget "pbpdfutilities.pbt";
