@@ -18,3 +18,13 @@ C:\projecto pw2021\Blog\PbFileService\FileService\FileService\FileService\obj\De
 C:\projecto pw2021\Blog\PbFileService\FileService\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.csproj.CoreCompileInputs.cache
 C:\projecto pw2021\Blog\PbFileService\FileService\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.dll
 C:\projecto pw2021\Blog\PbFileService\FileService\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.pdb
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\bin\Debug\netcoreapp3.1\FileService.deps.json
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\bin\Debug\netcoreapp3.1\FileService.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\bin\Debug\netcoreapp3.1\FileService.pdb
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.pdb
