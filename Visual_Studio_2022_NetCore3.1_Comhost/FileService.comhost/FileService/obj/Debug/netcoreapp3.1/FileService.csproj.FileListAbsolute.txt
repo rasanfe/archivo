@@ -32,3 +32,17 @@ C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\FileService\FileService\obj
 C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.dll
 C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.pdb
 C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\FileService\FileService\obj\Debug\netcoreapp3.1\FileService.genruntimeconfig.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\bin\Debug\netcoreapp3.1\FileService.comhost.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\bin\Debug\netcoreapp3.1\FileService.deps.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\bin\Debug\netcoreapp3.1\FileService.runtimeconfig.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\bin\Debug\netcoreapp3.1\FileService.runtimeconfig.dev.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\bin\Debug\netcoreapp3.1\FileService.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\bin\Debug\netcoreapp3.1\FileService.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\FileService.comhost\FileService\obj\Debug\netcoreapp3.1\FileService.genruntimeconfig.cache

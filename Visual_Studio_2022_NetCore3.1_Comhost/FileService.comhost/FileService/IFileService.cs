@@ -20,5 +20,9 @@ namespace FileService
 
         public bool FileRename(string fileInput, string newFile);
 
+        public void CopyDirectory(string sourceDir, string destinationDir, bool recursive);
+
+        public void CopyDirectory(string sourceDir, string destinationDir, bool recursive, string searchPattern);
+
     }
 }
