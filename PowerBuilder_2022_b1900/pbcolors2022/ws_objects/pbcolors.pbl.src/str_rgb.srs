@@ -1,7 +1,0 @@
-﻿$PBExportHeader$str_rgb.srs
-global type str_rgb from structure
-	integer		r
-	integer		g
-	integer		b
-end type
-
