@@ -1,0 +1,5 @@
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\publish\PdfFillFormFields.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\publish\PdfFillFormFields.deps.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\publish\PdfFillFormFields.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\publish\BouncyCastle.Crypto.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\publish\itextsharp.dll
