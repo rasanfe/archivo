@@ -1,0 +1,334 @@
+﻿$PBExportHeader$gf_endpoint.srf
+global type gf_endpoint from function_object
+end type
+
+forward prototypes
+private function boolean of_healthcheck (Restclient an_Api, string as_urlBase, ref string as_error_text)
+private function boolean of_login (Restclient an_Api, string as_urlbase, string as_user, string as_password, ref string as_error_text)
+private function boolean of_get_endpoint (Restclient an_Api, string as_urlBase, string as_SqlEnCrypted, string as_endpoint, any aa_params[], ref string as_controller, ref string as_method, ref string as_json, ref string as_error_text)
+private function boolean of_send_request (Restclient an_Api, string as_urlbase, string as_controller, string as_method, string as_jsonsend,  ref string as_jsonReceived, ref string as_error_text)
+private function string of_restclienterrortext (integer ai_error_number)
+private function integer of_handleerror (Restclient an_Api, string as_url, string as_response, integer al_return, ref string as_error_text)
+global function string gf_endpoint (string as_endpoint, any aa_params[])
+end prototypes
+
+private function boolean of_healthcheck (Restclient an_Api, string as_urlBase, ref string as_error_text)
+String ls_response
+Integer li_Return
+String ls_url
+ls_url =  as_urlBase + "/healthcheck"
+li_Return = an_Api.SendGetRequest(ls_url, ref ls_response)
+If li_return=1 Then 
+	Return True
+Else
+	as_error_text = as_urlBase +" No Responde."
+	Return False
+End If	
+end function
+
+private function boolean of_login (Restclient an_Api, string as_urlbase, string as_user, string as_password, ref string as_error_text);String ls_url, ls_AuthUser
+Integer li_GetJWTTokenReturn
+Long ll_RootObject
+String ls_status
+String ls_RequestErrorText, ls_RestClientError, ls_ResponseStatusText
+Long ll_ResponseStatusCode
+String ls_JWTToken
+JsonParser lnv_JsonParser
+JsonGenerator lnv_JsonGenerator
+
+lnv_JsonGenerator = Create JsonGenerator
+ll_RootObject = lnv_JsonGenerator.CreateJsonObject ()
+lnv_JsonGenerator.AddItemString(ll_RootObject, "Username", as_user)
+lnv_JsonGenerator.AddItemString(ll_RootObject, "Password", as_password)
+ls_AuthUser = lnv_JsonGenerator.GetJsonString()
+Destroy lnv_JsonGenerator
+
+ls_url = as_urlbase + "/Auth/Login/"
+	
+li_GetJWTTokenReturn= an_Api.GetJWTToken(ls_url, ls_AuthUser , REF ls_JWTToken)
+	
+	
+ll_ResponseStatusCode = an_Api.GetResponseStatusCode()
+ls_ResponseStatusText = an_Api.GetResponseStatusText()
+ls_RequestErrorText =  "Fallo al enviar la solicitud GetJWTToken."+"~r~n"+"Código de estado de la respuesta: "+string(ll_ResponseStatusCode)+"."+"~r~n"+ ls_ResponseStatusText
+
+IF li_GetJWTTokenReturn = 1 THEN
+		 //Reviso Si el Token me devuelve un codigo de Error (400, 401, 402 ...)
+		 lnv_JsonParser = Create JsonParser
+		 lnv_JsonParser.loadstring(ls_JWTToken)
+		 ll_RootObject = lnv_JsonParser.GetRootItem()
+		 ls_status = string(lnv_JsonParser.GetItemNumber(ll_RootObject, "status"))
+		 destroy lnv_JsonParser
+
+		If ls_JWTToken = ""  OR left(ls_status,1)="4" Then
+				as_error_text = "Usuario o Contraseña Incorrecta"
+				Return False
+			Else
+			an_Api.SetJwtToken( ls_JWTToken)
+		End IF	
+ELSE
+	If  li_GetJWTTokenReturn = -1 Then
+		as_error_text = "Rest Client Error: "+string(ll_ResponseStatusCode)
+	Else	
+		as_error_text = ls_RequestErrorText
+	End if
+	Return False
+END IF
+Return True
+end function
+
+private function boolean of_get_endpoint (Restclient an_Api, string as_urlBase, string as_SqlEnCrypted, string as_endpoint, any aa_params[], ref string as_controller, ref string as_method, ref string as_json, ref string as_error_text);string ls_SqlEnCrypted
+String ls_url, ls_jsonreceived,ls_jsonsend
+Long ll_RootObject, ll_ChildObject
+Integer li_return, li_param, li_totalparams
+any la_param_value
+JsonParser lnv_JsonParser
+JsonGenerator lnv_JsonGenerator
+
+ls_url = as_urlBase+"/Cursor/Retrieve"
+lnv_JsonGenerator = Create JsonGenerator
+ll_RootObject = lnv_JsonGenerator.CreateJsonObject ()
+lnv_JsonGenerator.AddItemString(ll_RootObject, "ls_SqlEnCrypted", as_SqlEnCrypted)
+lnv_JsonGenerator.AddItemString(ll_RootObject, "param1", as_endpoint)
+ls_jsonsend = lnv_JsonGenerator.GetJsonString()
+Destroy lnv_JsonGenerator
+
+li_return = an_Api.SendPostRequest(ls_url, ls_jsonsend, ref ls_jsonReceived)
+
+li_return = of_HandleError(an_Api, ls_url, ls_jsonReceived, li_return, ref as_error_text)
+
+If li_Return <> 1 Then Return FALSE
+
+//Obtenemos del Json El EndPoint
+lnv_JsonParser = Create JsonParser
+lnv_JsonParser.loadstring(ls_jsonReceived)
+ll_RootObject = lnv_JsonParser.GetRootItem()
+ll_ChildObject = lnv_JsonParser.GetChilditem(ll_RootObject, 1)
+as_controller = lnv_JsonParser.GetItemString(ll_ChildObject, "controlador")
+as_method = lnv_JsonParser.GetItemString(ll_ChildObject, "metodo")
+ls_SqlEnCrypted= lnv_JsonParser.GetItemString(ll_ChildObject, "sql")
+destroy lnv_JsonParser
+	
+If isnull(as_controller) or isnull(as_method) or isnull(ls_SqlEnCrypted) Then
+	as_error_text =  "¡ EndPoint "+as_endpoint+" Inactivo o Inexistente !"
+	Return FALSE
+End If
+
+//Creamos Json con el SQL y los parametros
+lnv_JsonGenerator = Create JsonGenerator
+ll_RootObject = lnv_JsonGenerator.CreateJsonObject ()
+lnv_JsonGenerator.AddItemString(ll_RootObject, "ls_SqlEnCrypted", ls_SqlEnCrypted)
+	
+li_TotalParams = UpperBound(aa_params[])
+	 
+For li_param = 1 To li_TotalParams
+	la_param_value =aa_params[li_param]
+	
+	If isnull(la_param_value) Then
+		lnv_JsonGenerator.AddItemNull(ll_RootObject, "param"+string(li_param))
+	Else	
+	Choose Case lower(ClassName(la_param_value))
+		 Case "string"
+			  lnv_JsonGenerator.AddItemString(ll_RootObject, "param"+string(li_param), la_param_value)
+		 Case "integer", "long", "decimal", "double"
+			  lnv_JsonGenerator.AddItemNumber(ll_RootObject, "param"+string(li_param), la_param_value)
+		 Case "date"
+			  lnv_JsonGenerator.AddItemDate(ll_RootObject, "param"+string(li_param), la_param_value)
+		 Case "time"
+			lnv_JsonGenerator.AddItemTime(ll_RootObject, "param"+string(li_param), la_param_value)
+		 Case "datetime"
+			lnv_JsonGenerator.AddItemDateTime(ll_RootObject, "param"+string(li_param), la_param_value)
+		 Case "boolean"
+			 lnv_JsonGenerator.AddItemBoolean(ll_RootObject, "param"+string(li_param), la_param_value)
+		 Case "blob"	
+			lnv_JsonGenerator.AddItemBlob(ll_RootObject, "param"+string(li_param), la_param_value)
+		End Choose
+	End If
+Next	
+as_json = lnv_JsonGenerator.GetJsonString()
+Destroy lnv_JsonGenerator
+Return True
+end function
+
+private function boolean of_send_request (Restclient an_Api, string as_urlbase, string as_controller, string as_method, string as_jsonsend,  ref string as_jsonReceived, ref string as_error_text);String ls_url
+Integer li_return
+
+	ls_url = as_urlBase+"/"+as_controller+"/"+as_method
+	
+	If as_controller = "Cursor" Then
+		li_return = an_Api.SendPostRequest(ls_url, as_jsonsend, ref as_jsonReceived)
+	Else
+		Choose Case as_method
+			Case "Update"
+				li_return = an_Api.SendPatchRequest(ls_url, as_jsonsend, ref as_jsonReceived)
+			Case "Insert"
+				li_return = an_Api.SendPostRequest(ls_url, as_jsonsend, ref as_jsonReceived)
+			Case "Delete"
+				li_return = an_Api.SendDeleteRequest(ls_url, as_jsonsend, ref as_jsonReceived)
+		End Choose
+	End If
+	
+	li_return = of_HandleError(an_Api, ls_url, as_jsonReceived, li_return, ref as_error_text)
+
+	If li_Return <> 1 Then Return FALSE
+	
+Return True
+end function
+
+private function string of_restclienterrortext (integer ai_error_number);String ls_errorText
+
+CHOOSE CASE ai_error_number
+    CASE -1
+       ls_errorText = "Error común"
+    CASE -2
+       ls_errorText = "URL inválida"
+    CASE -3
+       ls_errorText = "No se puede conectar a Internet"
+    CASE -4
+       ls_errorText = "Tiempo de espera agotado"
+    CASE -5
+       ls_errorText = "No se pudo obtener el token"
+    CASE -6
+       ls_errorText = "Fallo al exportar JSON"
+    CASE -7
+       ls_errorText = "Fallo al descomprimir los datos"
+    CASE -10
+       ls_errorText = "El token es inválido o ha expirado"
+    CASE -11
+       ls_errorText = "El parámetro es inválido"
+    CASE -12
+       ls_errorText = "Concesión inválida"
+    CASE -13
+       ls_errorText = "SCOPE inválido"
+    CASE -14
+       ls_errorText = "Fallo en la conversión de código"
+    CASE -15
+       ls_errorText = "Conjunto de caracteres no soportado"
+    CASE -16
+       ls_errorText = "El JSON no es un JSON plano con estructura de dos niveles"
+    CASE -17
+       ls_errorText = "No se insertaron datos en el DataWindow porque ninguna clave en el JSON coincide con algún nombre de columna"
+    CASE -18
+       ls_errorText = "Se ha habilitado la verificación de revocación de certificación, pero no se pudo verificar si un certificado ha sido revocado. El servidor utilizado para la verificación de revocación podría estar inalcanzable"
+    CASE -19
+       ls_errorText = "El certificado SSL es inválido"
+    CASE -20
+       ls_errorText = "El certificado SSL ha sido revocado"
+    CASE -21
+       ls_errorText = "La función no reconoce la Autoridad Certificadora que generó el certificado del servidor"
+    CASE -22
+       ls_errorText = "El nombre común del certificado SSL (campo nombre de host) es incorrecto. Por ejemplo, si ingresaste www.appeon.com y el nombre común en el certificado dice www.devmagic.com"
+    CASE -23
+       ls_errorText = "La fecha del certificado SSL recibido del servidor es incorrecta. El certificado ha expirado"
+    CASE -24
+       ls_errorText = "El certificado no fue emitido para la autenticación del servidor"
+    CASE -25
+       ls_errorText = "La aplicación experimentó un error interno al cargar las bibliotecas SSL"
+    CASE -26
+       ls_errorText = "Más de un tipo de errores al validar el certificado del servidor"
+    CASE -27
+       ls_errorText = "El servidor requiere que el cliente proporcione un certificado"
+    CASE -28
+       ls_errorText = "El certificado del cliente no ha sido asignado con una clave privada"
+    CASE -29
+       ls_errorText = "El certificado del cliente no tiene una clave privada accesible"
+    CASE -30
+       ls_errorText = "No se puede encontrar el certificado especificado"
+    CASE -31
+       ls_errorText = "Fallo al leer el certificado"
+    CASE -32
+       ls_errorText = "La contraseña del certificado es incorrecta"
+    CASE -33
+       ls_errorText = "Ha ocurrido un error de seguridad. Posible causa: El cliente no soporta la versión de SSL/TLS requerida por el servidor. Por ejemplo: El cliente no soporta TLS 1.3 cuando el servidor requiere TLS 1.3"
+    CASE -34
+       ls_errorText = "Respuesta no reconocible. Normalmente esto es porque la versión HTTP no coincide con la versión requerida por el servidor"
+    CASE -35
+       ls_errorText = "Error de TLS 1.3. El servidor no soporta TLS 1.3"
+    CASE ELSE
+       ls_errorText = "Código de error desconocido: " + string(ai_error_number)
+END CHOOSE
+
+Return ls_errorText
+
+end function
+
+private function integer of_handleerror (Restclient an_Api, string as_url, string as_response, integer al_return, ref string as_error_text);Long ll_ResponseStatusCode
+String ls_RequestErrorText, ls_RestClientError, ls_ResponseStatusText
+
+// Obtener códigos de estado
+ll_ResponseStatusCode = an_Api.GetResponseStatusCode()
+ls_ResponseStatusText = an_Api.GetResponseStatusText()
+
+If ll_ResponseStatusCode = 200 Then al_return = 1 //Si la REspuesta es 200 no debe fallar El RestClient, es un bug
+    
+// Determinar mensaje de error
+If ls_ResponseStatusText = "" Then
+     ls_RequestErrorText = as_response
+Else
+     ls_RequestErrorText = ls_ResponseStatusText
+End If
+    
+// Obtener error del cliente REST
+ls_RestClientError = of_RestClientErrorText(al_return)
+    
+   
+// Manejar diferentes casos de error
+If al_return = 1 Then 
+   // Éxito en la llamada
+   If ll_ResponseStatusCode = 200 Then
+      as_error_text = ""
+       Return 1
+    Else
+        as_error_text = "Error HTTP " + String(ll_ResponseStatusCode) + ": " + ls_RequestErrorText
+        Return ll_ResponseStatusCode * -1
+     End If
+Else 
+   // Error en el cliente REST
+   as_error_text = "Error en cliente REST: " + ls_RestClientError
+   Return -1
+ End If
+end function
+
+global function string gf_endpoint (string as_endpoint, any aa_params[]);//Esta funcion Contiene Funciones Privadas para re-utilizar partes del código. Editar sólo con Edit-Source.
+String ls_jsonreceived
+Boolean lb_continuar
+String ls_jsonsend
+String ls_controller, ls_method
+Constant String ls_User = "JOBERS"
+Constant String ls_password = "yHTJ4xrofjT3qbLSaa8CDQ"
+Constant String ls_urlBase = "https://desajob.jobers.es/jobersapi/api/" //"https://www.rsrsystem.com/jobersapi/api"
+Constant String ls_SQLEndpoint =  "35XedNu-OjaGUWD8awBImx2EmYHjvxEjvWH9G444vu-QrFo6pa7Es2Q3nPkl4sGvkEVE3kqfvfB6ugBq3WTY2lMPCzqT08bxKOjlDB5zxA5idZZqh-z7g3N9i8pcP9md"
+Constant String ls_JobersGasto = "13"
+Restclient ln_Api
+string ls_error_text
+
+ln_Api =  Create RestClient
+
+//1- Preparamos Cabeceras de la Llamada
+ln_Api.ClearRequestHeaders()
+ln_Api.SetRequestHeader("Content-Type", "application/json;charset=UTF-8")
+ln_Api.SetRequestHeader("Accept-Encoding", "gzip")
+ln_Api.SetRequestHeader( "connectionID", ls_JobersGasto, TRUE )
+
+//2- Comprobamos que la API está Operativa:
+lb_continuar =of_healthcheck(ln_Api, ls_urlBase, ref ls_error_text)
+
+//3- Hacemos Login en la API
+If lb_continuar = True Then lb_continuar = of_login(ln_Api, ls_urlBase, ls_user, ls_password, ref ls_error_text)
+
+//4- Consultamos el EndPoint
+If lb_continuar = True Then lb_continuar = of_get_endpoint (ln_Api, ls_urlBase, ls_SQLEndpoint, as_endpoint, aa_params[], ref ls_controller, ref ls_method, ref ls_jsonsend, ref ls_error_text)
+
+//5 - Finalmente Hacemos la Consulta del EndPoint
+If lb_continuar = True Then	lb_continuar = of_Send_Request(ln_Api, ls_urlBase, ls_controller, ls_method, ls_jsonsend, ref ls_jsonReceived, ref ls_error_text)
+
+//6 - Mostramos Errores
+If lb_continuar = False Then 
+	Messagebox("Atención", ls_error_text, Exclamation!)
+	ls_jsonReceived = ""
+End If	
+
+Destroy ln_Api	
+Return ls_jsonReceived
+end function
+
