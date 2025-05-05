@@ -1,0 +1,19 @@
+﻿$PBExportHeader$p_pdfbuilder_demo.srj
+EXE:pdfbuilder_demo.exe,,0,1,1,0,C:\Program Files (x86)\Appeon\Common\PowerBuilder\Runtime 22.2.0.3356
+CMP:0,0,0,3,0,0,1
+COM:RSRSYSTEM
+DES:Appeon Power Builder 2022 Product File 64Bits
+CPY:Ramón San Félix Ramón
+PRD:PdfBuilder_Demo
+PVS:2022.3.3356.2
+PVN:2022,3,3356,2
+FVS:2022.3.3356.2
+FVN:2022,3,3356,2
+MAN:0,asInvoker,0
+PBD:pdfbuilder_demo.pbl,,1
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pdfbuilder_demo\pdfbuilder_demo.pbl,d_grafico_2valores,d
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pdfbuilder_demo\pdfbuilder_demo.pbl,w_settings,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pdfbuilder_demo\pdfbuilder_demo.pbl,pdfbuilder_demo,a
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pdfbuilder_demo\pdfbuilder_demo.pbl,w_docs,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pdfbuilder_demo\pdfbuilder_demo.pbl,w_datastore,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pdfbuilder_demo\pdfbuilder_demo.pbl,w_main,w

@@ -1,0 +1,40 @@
+﻿$PBExportHeader$gf_nombre_mes.srf
+global type gf_nombre_mes from function_object
+end type
+
+forward prototypes
+global function string gf_nombre_mes (integer ai_mes)
+end prototypes
+
+global function string gf_nombre_mes (integer ai_mes);String ls_nombre_mes
+
+Choose Case ai_mes
+	Case 1 
+		 ls_nombre_mes ="Enero"
+	Case 2 
+		 ls_nombre_mes ="Febrero"
+	Case 3 
+		 ls_nombre_mes ="Marzo"
+	Case 4 
+		 ls_nombre_mes ="Abril"
+	Case 5 
+		 ls_nombre_mes ="Mayo"
+	Case 6 
+		 ls_nombre_mes ="Junio"
+	Case 7 
+		 ls_nombre_mes ="Julio"
+	Case 8 
+		 ls_nombre_mes ="Agosto"
+	Case 9 
+		 ls_nombre_mes ="Septiembre"
+	Case 10 
+		 ls_nombre_mes ="Octubre"
+	Case 11 
+		 ls_nombre_mes ="Noviembre"
+	Case 12 
+		 ls_nombre_mes ="Diciembre"
+End Choose
+
+Return ls_nombre_mes
+end function
+
