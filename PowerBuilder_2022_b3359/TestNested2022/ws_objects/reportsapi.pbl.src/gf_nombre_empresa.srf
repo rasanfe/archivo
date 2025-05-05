@@ -1,0 +1,24 @@
+﻿$PBExportHeader$gf_nombre_empresa.srf
+global type gf_nombre_empresa from function_object
+end type
+
+forward prototypes
+global function string gf_nombre_empresa (string as_empresa)
+end prototypes
+
+global function string gf_nombre_empresa (string as_empresa);String ls_nombre
+
+Choose Case as_empresa
+	Case "1"
+		ls_nombre = "Empresa Pruebas 1"
+	Case "2"
+		ls_nombre = "Empresa Pruebas 2"
+	Case "3"
+		ls_nombre = "Empresa Pruebas 3"
+	Case Else
+		ls_nombre = "Cualquier Empresa"
+End Choose
+
+Return ls_nombre
+end function
+

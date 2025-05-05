@@ -1,0 +1,47 @@
+﻿$PBExportHeader$str_genter.srs
+$PBExportComments$Objeto Creado con ejemplo Table_to_Object https://rsrsystem.blogspot.com/
+global type 	str_genter from structure
+	string	empresa
+	string	tipoter
+	string	codigo
+	string	nombre
+	string	razon
+	string	cif
+	string	pais
+	string	provincia
+	string	cod_postal
+	string	localidad
+	string	domicilio
+	string	telefono
+	string	fax
+	string	moneda
+	decimal {4}	riesgo
+	datetime	falta
+	string	apellidos
+	string	sexo
+	datetime	fecha_nacimiento
+	string	idioma
+	string	colocacion
+	string	activo
+	string	tipopais
+	string	cl_domicilio
+	string	nu_domicilio
+	string	prefijo_provincia
+	string	distribuidor
+	string	codigo_cliente
+	string	cuenta
+	string	correos
+	string	abreviado
+	string	provisional
+	string	web
+	string	correo_electronico
+	string	tipo_proveedor
+	string	bloqueo_compras
+	string	movil
+	string	usuario_web
+	string	pass_web
+	datetime	lpd_confidencial
+	string	tipo_empresa
+	string	extinguida
+end type
+

@@ -1,0 +1,30 @@
+﻿$PBExportHeader$gf_column_dbname.srf
+$PBExportComments$Busca el Nombre de una columna en la base de datos
+global type gf_column_dbname from function_object
+end type
+
+forward prototypes
+global function string gf_column_dbname (string as_table, string as_column)
+end prototypes
+
+global function string gf_column_dbname (string as_table, string as_column);//datastore ds_table
+string ls_select, ls_dbname
+
+//ls_select="SELECT Column_Name FROM INFORMATION_SCHEMA.COLUMNS WHERE Table_Name ='"+as_table+"' and column_name='"+as_column+"'"
+//ds_table=gf_cargar_cursor(ls_select)
+// ls_dbname=ds_table.object.column_name[1]
+
+//if ds_table.rowcount()<> 1 then ls_dbname=""
+SELECT Column_Name
+INTO:ls_dbname
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE Table_Name =:as_table 
+and column_name=:as_column;
+
+if isnull( ls_dbname) then ls_dbname=""
+
+//destroy ds_table
+
+RETURN  ls_dbname
+end function
+

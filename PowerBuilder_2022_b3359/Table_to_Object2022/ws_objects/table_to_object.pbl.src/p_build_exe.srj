@@ -1,0 +1,23 @@
+﻿$PBExportHeader$p_build_exe.srj
+EXE:Table_to_Object.exe,,0,1,1,0,C:\Program Files (x86)\Appeon\Common\PowerBuilder\Runtime 22.2.0.3356
+CMP:0,0,0,3,0,0,1
+COM:RSRSYSTEM
+DES:Table to Object
+CPY:Ramón San Félix Ramón
+PRD:Table_to_Object
+PVS:2022.3.3356.5
+PVN:2022,3,3356,5
+FVS:2022.3.3356.5
+FVN:2022,3,3356,5
+MAN:0,asInvoker,0
+PBD:table_to_object.pbl,,1
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,d_datatype,d
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,gf_set_table_select,f
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,d_table_list,d
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,table_to_object,a
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,gf_parse_obj_string,f
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,w_main,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,gf_set_column_select,f
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,gf_column_dbname,f
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,d_column_list,d
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\Table_to_Object\table_to_object.pbl,gf_replaceall,f
