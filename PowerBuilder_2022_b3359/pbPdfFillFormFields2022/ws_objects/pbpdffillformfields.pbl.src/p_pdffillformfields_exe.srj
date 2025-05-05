@@ -1,0 +1,16 @@
+﻿$PBExportHeader$p_pdffillformfields_exe.srj
+EXE:pbPdfFillFormFields64.exe,,0,1,1,0,C:\Program Files (x86)\Appeon\Common\PowerBuilder\Runtime 22.2.0.3356
+CMP:0,0,0,3,0,0,1
+COM:RSRSYSTEM
+DES:Appeon Power Builder 2022 Product File 64Bits
+CPY:Ramón San Félix Ramón
+PRD:PbPdfFillFormFields
+PVS:2022.3.3356.1
+PVN:2022,3,3356,1
+FVS:2022.3.3356.1
+FVN:2022,3,3356,1
+MAN:0,asInvoker,0
+PBD:pbpdffillformfields.pbl,,1
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbPdfFillFormFields\pbpdffillformfields.pbl,w_main,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbPdfFillFormFields\pbpdffillformfields.pbl,pbpdffillformfields,a
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbPdfFillFormFields\pbpdffillformfields.pbl,nvo_pdffill,u
