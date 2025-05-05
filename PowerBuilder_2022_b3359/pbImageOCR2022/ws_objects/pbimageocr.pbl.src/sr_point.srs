@@ -1,0 +1,6 @@
+﻿$PBExportHeader$sr_point.srs
+global type sr_point from structure
+	long		il_x
+	long		il_y
+end type
+
