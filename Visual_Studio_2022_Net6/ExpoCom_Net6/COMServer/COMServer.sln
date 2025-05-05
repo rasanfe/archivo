@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "COMServer", "COMServer.csproj", "{7C101FF4-9F33-4704-89FF-228982162A9E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C101FF4-9F33-4704-89FF-228982162A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C101FF4-9F33-4704-89FF-228982162A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C101FF4-9F33-4704-89FF-228982162A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C101FF4-9F33-4704-89FF-228982162A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5BE4076A-9CBD-44E5-AA7B-2653DCBF50CA}
+	EndGlobalSection
+EndGlobal
