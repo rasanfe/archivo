@@ -1,0 +1,34 @@
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\bin\Debug\netcoreapp3.1\NetCoderObject.deps.json
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\bin\Debug\netcoreapp3.1\NetCoderObject.dll
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\bin\Debug\netcoreapp3.1\NetCoderObject.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.csproj.AssemblyReference.cache
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.AssemblyInfoInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.AssemblyInfo.cs
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.dll
+C:\projecto pw2022\Aprender\Mis Cosas\BlobToBase64String\BlobToBase64String\obj\Debug\netcoreapp3.1\NetCoderObject.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.deps.json
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.dll
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.csproj.AssemblyReference.cache
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.AssemblyInfoInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.AssemblyInfo.cs
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.dll
+C:\projecto pw2022\Aprender\Mis Cosas\NetCoderObject\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.comhost.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.deps.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.runtimeconfig.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.runtimeconfig.dev.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\bin\Debug\netcoreapp3.1\NetCoderObject.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.csproj.AssemblyReference.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.AssemblyInfoInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.AssemblyInfo.cs
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetCoderObject.comhost\NetCoderObject\obj\Debug\netcoreapp3.1\NetCoderObject.genruntimeconfig.cache

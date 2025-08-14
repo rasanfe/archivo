@@ -1,0 +1,32 @@
+﻿$PBExportHeader$p_pbcolors_exe.srj
+$PBExportComments$Generated Application Executable Project
+EXE:pbcolors.exe,,0,1,1,0,C:\Program Files (x86)\Appeon\Common\PowerBuilder\Runtime 22.2.0.3356
+CMP:0,0,0,3,0,0,1
+COM:RSRSYSTEM
+DES:Appeon Power Builder 2022 Product File 64Bits
+CPY:Ramón San Félix Ramón
+PRD:PbColors2022
+PVS:2022.3.3356.11
+PVN:2022,3,3356,11
+FVS:2022.3.3356.11
+FVN:2022,3,3356,11
+MAN:0,asInvoker,0
+PBD:pbcolors.pbl,,1
+PBD:ancestors.pbl,,1
+PBD:myobjects.pbl,,1
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,vs_st_master,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,w_ancestor,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\pbcolors.pbl,pbcolors,a
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\myobjects.pbl,vuo_st_color,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\pbcolors.pbl,w_seleccionar_color,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\myobjects.pbl,vuo_cb_aceptar,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\pbcolors.pbl,str_rgb,s
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\myobjects.pbl,vuo_cb_cancelar,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,vs_em_master,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,vs_cb_master,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,w_popup,w
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\myobjects.pbl,vuo_em_string,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\myobjects.pbl,vuo_em_rgb_number,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,vuo_htb_color,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\myobjects.pbl,vuo_em_number,u
+OBJ:C:\proyecto pw2022\Blog\PowerBuilder\pbcolors\ancestors.pbl,vs_htb_master,u

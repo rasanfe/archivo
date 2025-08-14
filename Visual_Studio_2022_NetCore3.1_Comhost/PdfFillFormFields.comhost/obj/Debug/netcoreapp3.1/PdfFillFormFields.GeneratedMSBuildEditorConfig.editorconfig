@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = PdfFillFormFields
+build_property.ProjectDir = C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields.comhost\
+build_property.EnableComHosting = True
+build_property.EnableGeneratedComInterfaceComImportInterop = 

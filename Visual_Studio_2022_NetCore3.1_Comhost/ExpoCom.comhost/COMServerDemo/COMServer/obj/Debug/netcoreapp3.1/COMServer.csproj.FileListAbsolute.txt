@@ -1,0 +1,56 @@
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.comhost.dll
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.deps.json
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.json
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.dev.json
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.AssemblyReference.cache
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfoInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfo.cs
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.genruntimeconfig.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.comhost.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.deps.json
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.json
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.dev.json
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.AssemblyReference.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfoInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfo.cs
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.genruntimeconfig.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.comhost.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.deps.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.dev.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.AssemblyReference.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfoInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfo.cs
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.genruntimeconfig.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.comhost.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.deps.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.runtimeconfig.dev.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\bin\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.AssemblyReference.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfoInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.AssemblyInfo.cs
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\ExpoCom.comhost\COMServerDemo\COMServer\obj\Debug\netcoreapp3.1\COMServer.genruntimeconfig.cache

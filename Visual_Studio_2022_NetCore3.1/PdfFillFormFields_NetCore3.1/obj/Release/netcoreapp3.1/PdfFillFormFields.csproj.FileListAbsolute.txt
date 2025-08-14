@@ -1,0 +1,20 @@
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\PdfFillFormFields.deps.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\PdfFillFormFields.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\PdfFillFormFields.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.pdb
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\PdfFillFormFields.deps.json
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\PdfFillFormFields.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\bin\Release\netcoreapp3.1\PdfFillFormFields.pdb
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\PdfFillFormFields\obj\Release\netcoreapp3.1\PdfFillFormFields.pdb

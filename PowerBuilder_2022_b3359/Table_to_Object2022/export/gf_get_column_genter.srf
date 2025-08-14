@@ -1,0 +1,33 @@
+﻿$PBExportHeader$gf_get_column_genter.srf
+$PBExportComments$Objeto Creado con ejemplo Table_to_Object https://rsrsystem.blogspot.com/
+global type gf_get_column_genter from function_object
+end type
+
+forward prototypes
+global function string gf_get_column_genter (string as_column, string as_empresa, string as_tipoter, string as_codigo)
+end prototypes
+
+global function string gf_get_column_genter (string as_column, string as_empresa, string as_tipoter, string as_codigo);n_cst_genter ln_genter
+String ls_field, ls_fieldtype
+
+ln_genter = CREATE n_cst_genter
+ls_fieldtype = ln_genter.of_GetFieldType(as_column)
+
+CHOOSE CASE ls_fieldtype
+	CASE "money", "smallmoney", "decimal", "float"
+		ls_field = string(ln_genter.of_GetItemDecimal(as_column, as_empresa, as_tipoter, as_codigo), "##,###,##0.00")
+	CASE "numeric", "int", "smallint", "bigint", "tinyint"
+		ls_field = string(ln_genter.of_GetItemNumber(as_column, as_empresa, as_tipoter, as_codigo), "##,###,##0")
+	CASE "text", "varchar", "nchar", "char"
+		ls_field = ln_genter.of_GetItemString(as_column, as_empresa, as_tipoter, as_codigo)
+	CASE "datetime", "smalldatetime"
+		ls_field = string(ln_genter.of_GetItemDateTime(as_column, as_empresa, as_tipoter, as_codigo), "dd-mm-yy")
+	CASE ELSE
+		ls_field = ""
+END CHOOSE
+
+DESTROY ln_genter
+RETURN ls_field
+
+end function
+

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+Z2kVmjByXk8phrojkDU0TwqofG1I2NOwRUwFMTlgBbvFAtZamT9gwP15btSux2ha8iWUtjmCUh1UZ9VI3rf5A==",
+  "success": true,
+  "projectFilePath": "C:\\proyecto pw2022\\Blog\\Archivo\\ExpoComNetCore3.1\\Security.comhost\\SecurityProject\\SecurityProject.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\3.1.31\\microsoft.netcore.app.host.win-x86.3.1.31.nupkg.sha512"
+  ],
+  "logs": []
+}

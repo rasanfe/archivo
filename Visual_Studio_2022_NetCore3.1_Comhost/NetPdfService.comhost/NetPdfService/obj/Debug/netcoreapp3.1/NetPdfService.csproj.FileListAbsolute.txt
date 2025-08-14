@@ -1,0 +1,47 @@
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.deps.json
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.dll
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.pdb
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.AssemblyReference.cache
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.AssemblyInfoInputs.cache
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.AssemblyInfo.cs
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.CoreCompileInputs.cache
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.CopyComplete
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.dll
+C:\projecto pw2021\Blog\pdfsignV\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.AssemblyReference.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.AssemblyInfoInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.AssemblyInfo.cs
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.comhost.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.deps.json
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.runtimeconfig.json
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.runtimeconfig.dev.json
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.pdb
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.CopyComplete
+C:\projecto pw2022\Aprender\Mis Cosas\CSharp Interop\NetPdfService\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.genruntimeconfig.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.comhost.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.deps.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.runtimeconfig.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.runtimeconfig.dev.json
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\NetPdfService.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.AssemblyReference.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.GeneratedMSBuildEditorConfig.editorconfig
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.AssemblyInfoInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.AssemblyInfo.cs
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.CoreCompileInputs.cache
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.csproj.CopyComplete
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.dll
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.pdb
+C:\projecto pw2022\Blog\Archivo\PowerBuilder115\CSharp\NetPdfService.comhost\NetPdfService\obj\Debug\netcoreapp3.1\NetPdfService.genruntimeconfig.cache

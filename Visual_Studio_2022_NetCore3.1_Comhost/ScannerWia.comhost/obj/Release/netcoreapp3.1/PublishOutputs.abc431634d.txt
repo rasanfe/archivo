@@ -1,0 +1,7 @@
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\ScannerWia.comhost.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\ScannerWia.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\ScannerWia.deps.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\ScannerWia.runtimeconfig.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\ScannerWia.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\Interop.WIA.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Release\netcoreapp3.1\publish\itextsharp.dll

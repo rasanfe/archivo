@@ -1,0 +1,34 @@
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.deps.json
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.pdb
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\bin\Debug\netcoreapp3.1\Interop.WIA.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\Interop.WIA.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.ResolveComReference.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.pdb
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\proyecto pw2022\Blog\Archivo\NetCore 3.1\ScannerWia\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.CopyComplete
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.comhost.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.deps.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.runtimeconfig.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.runtimeconfig.dev.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\ScannerWia.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\itextsharp.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\bin\Debug\netcoreapp3.1\Interop.WIA.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\Interop.WIA.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.ResolveComReference.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.genruntimeconfig.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\ScannerWia.comhost\ScannerWia\obj\Debug\netcoreapp3.1\ScannerWia.csproj.Up2Date

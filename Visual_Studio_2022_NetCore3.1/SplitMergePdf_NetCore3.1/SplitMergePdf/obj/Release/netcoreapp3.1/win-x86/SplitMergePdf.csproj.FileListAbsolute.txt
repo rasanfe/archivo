@@ -1,0 +1,12 @@
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\win-x86\SplitMergePdf.deps.json
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\win-x86\SplitMergePdf.dll
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\win-x86\SplitMergePdf.pdb
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\bin\Release\netcoreapp3.1\win-x86\itextsharp.dll
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.csproj.CopyComplete
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.dll
+C:\proyecto pw2022\Blog\NetCore 3.1\SplitMergePdf\SplitMergePdf\obj\Release\netcoreapp3.1\win-x86\SplitMergePdf.pdb

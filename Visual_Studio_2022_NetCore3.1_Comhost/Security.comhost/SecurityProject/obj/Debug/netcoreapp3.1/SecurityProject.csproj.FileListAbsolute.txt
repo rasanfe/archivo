@@ -1,0 +1,16 @@
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\SecurityProject.comhost.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\SecurityProject.deps.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\SecurityProject.runtimeconfig.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\SecurityProject.runtimeconfig.dev.json
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\SecurityProject.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\SecurityProject.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.csproj.AssemblyReference.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.AssemblyInfoInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.AssemblyInfo.cs
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.csproj.CoreCompileInputs.cache
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.csproj.CopyComplete
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.dll
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.pdb
+C:\proyecto pw2022\Blog\Archivo\ExpoComNetCore3.1\Security.comhost\SecurityProject\obj\Debug\netcoreapp3.1\SecurityProject.genruntimeconfig.cache
