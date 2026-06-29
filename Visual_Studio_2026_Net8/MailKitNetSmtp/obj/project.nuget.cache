@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "EIsAHsg1oOgUACkbre1aIKngkNPTYOHPIvP8OnDNiiKWBPOeQGycJZgvEDpYqD0cyYuY+KBrmpn67b5EiY6qxQ==",
+  "success": true,
+  "projectFilePath": "C:\\proyecto pw2022\\Blog\\Net8\\MailKitNetSmtp\\MailKitNetSmtp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Usuario\\.nuget\\packages\\bouncycastle.cryptography\\2.5.1\\bouncycastle.cryptography.2.5.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\mailkit\\4.11.0\\mailkit.4.11.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\mimekit\\4.11.0\\mimekit.4.11.0.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.formats.asn1\\8.0.1\\system.formats.asn1.8.0.1.nupkg.sha512",
+    "C:\\Users\\Usuario\\.nuget\\packages\\system.security.cryptography.pkcs\\8.0.1\\system.security.cryptography.pkcs.8.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

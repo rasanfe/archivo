@@ -1,0 +1,87 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C1D74F-D2B2-4919-A49D-C1D37573C813}|ImageSharp.csproj|c:\\proyecto pw2022\\blog\\net8\\imagesharp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C1D74F-D2B2-4919-A49D-C1D37573C813}|ImageSharp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C1D74F-D2B2-4919-A49D-C1D37573C813}|ImageSharp.csproj|C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\emgu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C1D74F-D2B2-4919-A49D-C1D37573C813}|ImageSharp.csproj|solutionrelative:emgu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7C1D74F-D2B2-4919-A49D-C1D37573C813}|ImageSharp.csproj|C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\imagesharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7C1D74F-D2B2-4919-A49D-C1D37573C813}|ImageSharp.csproj|solutionrelative:imagesharp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Emgu.cs",
+              "DocumentMoniker": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\Emgu.cs",
+              "RelativeDocumentMoniker": "Emgu.cs",
+              "ToolTip": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\Emgu.cs",
+              "RelativeToolTip": "Emgu.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:58:03.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ImageSharp.cs",
+              "DocumentMoniker": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\ImageSharp.cs",
+              "RelativeDocumentMoniker": "ImageSharp.cs",
+              "ToolTip": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\ImageSharp.cs",
+              "RelativeToolTip": "ImageSharp.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAkwHQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:57:19.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\proyecto pw2022\\Blog\\Net8\\ImageSharp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:55:09.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 797,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
